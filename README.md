@@ -1,4 +1,3 @@
-```markdown
 # 📱 Smartphone Recommendation RAG App (Gemini 1.5 Flash)
 
 This project is a Retrieval-Augmented Generation (RAG) system that helps users find the best smartphones based on natural language queries, such as:
@@ -33,7 +32,6 @@ It uses vector search with FAISS and Google Gemini 1.5 Flash to retrieve the mos
 ## 🗂️ Directory Structure
 
 ```
-
 smartphone-rag/
 │
 ├── app.py                      # Main Streamlit app
@@ -45,9 +43,8 @@ smartphone-rag/
 │   └── smartphone.csv          # Your dataset (900 rows, 11 columns)
 │
 └── embeddings/
-└── faiss\_index.index       # FAISS index (auto-generated)
-
-````
+    └── faiss_index.index       # FAISS index (auto-generated)
+```
 
 ---
 
@@ -57,10 +54,9 @@ smartphone-rag/
    ```bash
    git clone https://github.com/yourusername/smartphone-rag.git
    cd smartphone-rag
-````
+   ```
 
 2. **Install dependencies**
-
    ```bash
    pip install -r requirements.txt
    ```
@@ -68,13 +64,11 @@ smartphone-rag/
 3. **Set up your Gemini API key**
 
    Create a `.env` file:
-
    ```bash
    echo "GEMINI_API_KEY=your_gemini_api_key_here" > .env
    ```
 
 4. **Run the app**
-
    ```bash
    streamlit run app.py
    ```
@@ -83,44 +77,37 @@ smartphone-rag/
 
 ## ✍️ Sample Queries
 
-* "Suggest a phone under 15000 rupees with good battery and camera"
-* "I need a lightweight phone with less than 6.2 inch screen"
-* "Find me a phone launched after 2022 with 8GB RAM"
+- "Suggest a phone under 15000 rupees with good battery and camera"
+- "I need a lightweight phone with less than 6.2 inch screen"
+- "Find me a phone launched after 2022 with 8GB RAM"
 
 ---
 
 ## 🧪 Example Dataset Columns
 
-* Company Name
-* Model Name
-* Mobile Weight
-* RAM
-* Front Camera
-* Back Camera
-* Processor
-* Battery Capacity
-* Screen Size
-* Launched Price (India)
-* Launched Year
+- Company Name  
+- Model Name  
+- Mobile Weight  
+- RAM  
+- Front Camera  
+- Back Camera  
+- Processor  
+- Battery Capacity  
+- Screen Size  
+- Launched Price (India)  
+- Launched Year  
 
 ---
 
 ## 🙏 Acknowledgments
 
-* [Google Gemini API](https://ai.google.dev/)
-* [FAISS - Facebook AI Similarity Search](https://github.com/facebookresearch/faiss)
-* [SentenceTransformers](https://www.sbert.net/)
-* Streamlit for the UI
+- [Google Gemini API](https://ai.google.dev/)
+- [FAISS - Facebook AI Similarity Search](https://github.com/facebookresearch/faiss)
+- [SentenceTransformers](https://www.sbert.net/)
+- Streamlit for the UI
 
 ---
 
 ## 📜 License
 
 MIT License
-
-```
-
----
-
-Let me know if you want to add your name as author or include badges (like Python version or license)!
-```
